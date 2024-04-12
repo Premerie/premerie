@@ -1,0 +1,22 @@
+{% extends "tech/base.html" %}
+{% block nav %}
+<li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="{% url 'logout' %}">Logged Out</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{% url 'login' %}">Login</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{% url 'register' %}">Register</a>
+</li>
+{% endblock nav %}
+{% block content %}
+{% load crispy_forms_tags %}
+{% load static %}
+<h1>You have been logged out!</h1>
+<div class="border-top pt-3">
+    <small class="text-muted">
+        <a href="{% url 'login' %}">Login Again</a>
+    </small>
+</div>
+{% endblock content %}

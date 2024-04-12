@@ -1,0 +1,51 @@
+/* Show it is fixed to the top */
+body {
+    padding-top: 4.5rem;
+    height: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    box-sizing: content-box;
+}
+.account-img {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+.account-heading {
+    font-weight: bold;
+    opacity: 0.8;
+}
+.foot {
+    margin-top: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: auto;
+}
+a {
+    font-family: arial-black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.pot {
+    text-decoration-line: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.title {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 20px;
+}
+.titles {
+    color: black;
+    text-decoration-line: none;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.sole{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
